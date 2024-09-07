@@ -1,0 +1,118 @@
+/* Reset Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li.active a {
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 40px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .plan h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .plan .price {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .plan .price span {
+    font-size: 18px;
+    vertical-align: super;
+  }
+  
+  .plan ul {
+    list-style: none;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .plan ul li {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #444;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #444;
+  }
+  
+  footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

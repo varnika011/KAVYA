@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Form | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <input type="checkbox" id="toggle">
+  <label for="toggle" class="show-btn">Show Modal</label>
+  <div class="wrapper">
+    <label for="toggle">
+    <i class="cancel-icon fas fa-times"></i>
+    </label>
+    <div class="icon"><i class="far fa-envelope"></i></div>
+    <div class="content">
+      <header>Become a Subscriber</header>
+      <p>Subscribe to our blog and get the latest updates straight to your inbox.</p>
+    </div>
+    <form action="#">
+    
+           <!-- show sucess message once email send successfully -->
+          <div class="alert success-alert">
+          
+          <!-- show error message if somehow mail can't be sent -->
+          <div class="alert error-alert">
+        
+        <!-- show error message if user entered email is not valid -->
+        <div class="alert error-alert">
+      <div class="field">
+        <input type="text" class="email" name="email" placeholder="Email Address" required >
+      </div>
+      <div class="field btn">
+        <div class="layer"></div>
+        <button type="submit" name="subscribe">Subscribe</button>
+      </div>
+    </form>
+    <div class="text">We do not share your information.</div>
+  </div>
+
+</body>
+</html>
